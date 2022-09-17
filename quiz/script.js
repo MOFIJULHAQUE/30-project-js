@@ -253,7 +253,7 @@ let questions = [
     options: [
       "Stylish Question Language",
       "Stylesheet Query Language",
-      "Statement Question Language",
+      "Statement Question Language", 
       "Structured Query Language"
     ]
   },
