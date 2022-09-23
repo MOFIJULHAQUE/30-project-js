@@ -1,0 +1,73 @@
+        * {
+            box-sizing: border-box;
+            height: 0;
+            padding: 0;
+        }
+           
+body {
+            display: grid;
+            place-content: center;
+            height: 100vh;
+            background-color: black;
+        }
+        
+        button {
+            height: 50px;
+            width: 150px;
+            border-radius: 30px;
+            border: none;
+            outline: 2px solid rgb(5, 166, 241);
+            background-color: black;
+            color: rgb(5, 241, 225);
+            font-size: 20px;
+            display: grid;
+            place-content: center;
+            background: none;
+            overflow: hidden;
+            transition: 1s ease-out;
+        }
+        
+        button:hover {
+            cursor: pointer;
+            color: black;
+            font-weight: bold;
+        }
+        
+        .box {
+            position: absolute;
+            z-index: -1;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            position: relative;
+            left: 0px;
+            top: -37px;
+        }
+        
+        span {
+            background-color: rgb(204, 204, 28);
+            height: 50px;
+            width: 40px;
+            transition: 0.7s linear;
+        }
+        
+        .first {
+            position: relative;
+            left: 160px;
+        }
+        
+        .fourth {
+            position: relative;
+            left: -160px;
+        }
+        
+        .second {
+            position: relative;
+            top: 55px;
+            left: 40px;
+        }
+        
+        .third {
+            position: relative;
+            top: -55px;
+            left: -40px;
+        }
