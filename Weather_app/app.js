@@ -6,7 +6,8 @@ const weather = document.querySelector("#weather")
 // q=${city}&appid=${API_KEY}&units=metric`
 // const IMG_URL = `https: //openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
 const getWeather = async (city) => {
-    weather.innerHTML = `<h2> Loading... <h2>`
+    weather.innerHTML = `<h2> Loading...... <br/>
+    Please wait......😊<h2>`
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
     const response = await fetch(url);
     const data = await response.json()
@@ -16,7 +17,7 @@ const getWeather = async (city) => {
 const showWeather = (data) => {
     if (data.cod == "404") {
         weather.innerHTML = `<h2> City Not Found <h2>`
-        return;\o3DukCgvUg0
+        return;o3DukCgvUg0
     }
     weather.innerHTML = `
         <div>
