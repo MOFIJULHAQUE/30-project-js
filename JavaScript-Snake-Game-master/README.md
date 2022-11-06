@@ -1,5 +1,1 @@
-# JavaScript-Snake-Game
-
-JavaScript Snake game sources 
-https://zetcode.com/javascript/snake/
-
+[You Can Check The Demo By Clicking This Link : ](https://snackagame.netlify.app/)
