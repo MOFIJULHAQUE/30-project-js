@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>JavaScript File Upload Example</title>
+ <script type="text/javascript">
+ function showFileSize() {
+ var input, file, extension;
+ input = document.getElementById("fileinput");
+ file = input.files[0];
+ extension =
+file.name.substring(file.name.lastIndexOf(".") + 1);
+ console.log("File Name: " + file.name);
+ console.log("File Size: " + file.size + " bytes");
+ console.log("File Extension: " + extension);
+ }
+ </script>
+</head>
+<body>
+ <form action="#" onsubmit="return false;">
+ <input type="file" id="fileinput" />
+ <input type="button" id="btnLoad" value="Load"
+onclick="showFileSize();" />
+ </form>
+</body>
+</html>
