@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #2f908e;
+  background-color: #226391;
   color: #fff;
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -47,8 +47,8 @@ body {
 
 .card {
   max-width: 800px;
-  background-color: #4c2885;
-  border-radius: 20px;
+  background-color: #107a5c;
+  border-radius: 10px;
   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -57,8 +57,8 @@ body {
 }
 
 .avatar {
-  border-radius: 50%;
-  border: 10px solid #2a2a72;
+  border-radius: 5%;
+  border: 10px solid #302a72;
   height: 150px;
   width: 150px;
 }

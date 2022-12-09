@@ -1,7 +1,7 @@
 ## Responsive Portfolio Website ✨
 
 
-[You Can Check The Demo By Clicking This Link : ](https://celadon-dodol-f1801f.netlify.app)
+[Live Demo : ](https://celadon-dodol-f1801f.netlify.app)
 
 
 
