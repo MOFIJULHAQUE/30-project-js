@@ -10,10 +10,10 @@ const search = document.getElementById('search')
 getMovies(API_URL)
 
 async function getMovies(url) {
-    const res = await fetch(url)
-    const data = await res.json()
+    const res = await fetch(url);
+    const data = await res.json();
 
-    showMovies(data.results)
+    showMovies(data.results);
 }
 
 function showMovies(movies) {
